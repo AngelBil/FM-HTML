@@ -1,0 +1,20 @@
+.main-article {
+    font-size: 60px;
+    color: red;
+    border: 2px solid red;
+}
+
+.article-header {
+    
+}
+
+.article-content {
+    color: brown;
+    border: unset;
+    text-indent: 40px ;
+}
+
+.article-link {
+    text-decoration: none;
+    color: inherit;
+}

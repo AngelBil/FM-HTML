@@ -1,20 +1,80 @@
-.main-article {
-    font-size: 60px;
-    color: red;
-    border: 2px solid red;
+
+.nav-list {
+ margin: 0;
+ padding: 0;
+ font-size: 0;
+}
+.list-item {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(250, 97, 41);
+    padding: 20px;
 }
 
-.article-header {
+.link {
+    background-color: rgb(250, 97, 41);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
     
 }
 
-.article-content {
-    color: brown;
-    border: unset;
-    text-indent: 40px ;
+.sub-nav-list {
+    position: absolute;
+    top: 40px;
+    left: -20px;
+    display: block;
+    
+    
 }
 
-.article-link {
-    text-decoration: none;
-    color: inherit;
+.sub-list-item {
+    display: none;
+    list-style-type: none;
+    background-color: rgb(250, 97, 41);
+    padding: 20px;
+         
+}
+
+.list-item:hover .sub-list-item {
+    display: block;
+}
+
+.sub-sub-nav-list {
+    position: absolute;
+    top: 120px;
+    left: 110px;
+    display: block;
+}
+
+.sub-sub-list-item {
+    display: none;
+    list-style-type: none;
+    background-color: rgb(250, 97, 41);
+    padding: 20px;
+}
+.sub-list-item:hover .sub-sub-list-item {
+    display: block
+}
+
+
+.under-sub-sub-nav-list {
+    position: absolute;
+    top: 130px;
+    left: 125px;
+    display: block;
+    width: 180px;
+}
+
+.under-sub-sub-list-item {
+    display: none;
+    list-style-type: none;
+    background-color: rgb(250, 97, 41);
+    padding: 20px;
+}
+
+.sub-sub-list-item:hover .under-sub-sub-list-item {
+    display: block
 }
